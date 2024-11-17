@@ -5,7 +5,7 @@ const contractABI = [
   "function getPhotoHash(uint256 index) public view returns (string memory hash, string memory emotion, uint256 timestamp)"
 ];
 
-const contractAddress = process.env.REACT_APP_CONTRACT_ADDRESS;
+const contractAddress = "0x59613461e4B53875273d9Ec41a9902FF56B09693";
  
 
 export class BlockchainStorage {
